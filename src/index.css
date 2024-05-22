@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+@tailwind utilities;
+
+body {
+  background-color: #fff;
+}
+
+.slick-next {
+  display: none !important;
+  right: 15px !important;
+}
+
+.slick-prev {
+  display: none !important;
+  left: 15px !important;
+}
